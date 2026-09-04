@@ -1,0 +1,8 @@
+export const dishes = [
+  { id: 1, name: "Doro Wat", price: 350, category: "Main", spicy: true },
+  { id: 2, name: "Shiro", price: 150, category: "Main", spicy: false },
+  { id: 3, name: "Injera", price: 20, category: "Side", spicy: false },
+  { id: 4, name: "Tej", price: 100, category: "Drink", spicy: false }
+];
+
+export const categories = ["All", "Main", "Side", "Drink"];
