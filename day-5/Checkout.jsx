@@ -1,0 +1,1 @@
+export default function Checkout({ cart }) { return <h2>Checkout: {cart.length} items</h2>; }
