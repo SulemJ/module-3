@@ -3,11 +3,11 @@ import { dishes } from "./data";
 import { useCartStore } from "./store";
 
 export default function DishDetail() {
-  const { id } = useParams(); // Read dynamic parameter[cite: 3]
+  const { id } = useParams(); 
   const navigate = useNavigate();
   const addItem = useCartStore(s => s.addItem);
   
-  // URL params are strings; convert to number for comparison[cite: 3]
+
   const dish = dishes.find(d => d.id === parseInt(id));
 
   if (!dish) return <h2>Dish not found</h2>;

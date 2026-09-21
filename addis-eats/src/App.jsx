@@ -12,7 +12,7 @@ function Layout() {
   const items = useCartStore(s => s.items);
   return (
     <div>
-      <nav style={{ padding: "10px", background: "#eee", display: "flex", gap: "15px" }}>
+      <nav style={{ padding: "10px", background: "#432c2c", display: "flex", gap: "15px" }}>
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
         <Link to="/checkout">Cart ({items.length})</Link>
